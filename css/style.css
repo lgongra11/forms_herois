@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E0F2FE;
+}
+
+header {
+    background-color: #1E4ED8;
+    color: #FEFEFF;
+    margin: 15px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin-left: 15px;
+}
+
+header p{
+    margin-left: 15px;
+}
+
+form {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin: auto;
+    padding: 15px;
+    line-height: 40px;
+    color:#172554;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#poderes {
+    line-height: 25px;
+    margin-top: 10px;
+}
+
+#voar {
+    display: flex;
+    flex-direction: row;
+    width: 19%;
+    gap: 5px;
+}
+
+#supervelocidade {
+    display: flex;
+    flex-direction: row;
+    width: 19%;
+    gap: 5px;
+}
+
+#forca {
+    display: flex;
+    flex-direction: row;
+    width: 19%;
+    gap: 5px;
+}
+
+#missoes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 19%;
+    gap: 5px;
+}
+
+#botao {
+    margin-top: 10px;
+}
+
+button {
+    background-color: #DC2626;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    border: 0;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #7C7C7C;
+  border-radius: 10px;
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: 2px solid #1E4ED8;
+}
+
+footer {
+    background-color: #1E4ED8;
+    color: #FEFEFF;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}

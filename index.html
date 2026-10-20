@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Academia de Heróis</title>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <header>
+        <section>
+        <h1>Academia de Hérois</h1>
+        <p>Inscreva-se para participar da próxima missão.</p>
+        </section>
+    </header>
+    <main>
+        <section id="formulario">
+        <form action="#" metod="get">
+            <h2><b>Faça sua inscrição</b></h2>
+            <label for="nome">Nome de herói:</label>
+            <input id="nome" name="nome" type="text"/>
+            <label for="email">E-mail:</label>
+            <input id="email" name="email" type="email"/>
+            <label for="idade">Idade:</label>
+            <input id="idade" name="idade" type="number"/>
+            <label for="equipe">Escolha sua equipe:</label>
+            <select id="equipe" name="equipe">
+                <option>Liga da Justiça</option>
+                <option>Vingadores</option>
+                <option>Guardiões da Galáxia</option>
+            </select>
+            <section id="poderes">
+            <h3><b>Qual pode você prefere?</b></h3>
+            <section id="voar">
+            <input id="voar" name="poder" type="radio">
+            <label for="voar">Voar</label>
+            </section>
+            <section id="supervelocidade">
+            <input id="supervelocidade" name="poder" type="radio">
+            <label for="supervelocidade">Supervelocidade</label>
+            </section>
+            <section id="forca">
+            <input id="superforca" name="poder" type="radio">
+            <label for="superforca">Superforça</label> 
+            </section>
+            <section id="missoes">
+            <input id="receber" name="receber" type="checkbox">
+            <label for="receber">Quero receber novas missões.</label>
+            </section>
+            </section>
+            <label for="porque">Por que você quer ser um herói?</label>
+            <textarea id="porque" name="porque" rows="5"></textarea>
+            <section id="botao">
+            <button type="submit">Enviar inscrição</button>
+            </section>
+        </form>
+        </section>
+    </main>
+    <footer>
+        <p>Prática de formulários HTML.</p>
+    </footer>
+</body>
+</html>
